@@ -12,13 +12,16 @@ ul {
 }
 li {
   list-style: none;
-  text-transform: capitalize;
   margin: 0;
   padding: 0;
-  color: #6b6262;
+   color: #6b6262;
   font-size: 14px;
   font-weight: 100px;
   line-height: 19px;
+}
+
+li:first-letter{
+  text-transform: capitalize;
 }
 
 .weather-app-wrapper {
