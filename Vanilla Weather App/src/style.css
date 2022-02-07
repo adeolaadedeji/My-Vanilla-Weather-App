@@ -62,3 +62,12 @@ line-height:1;
 }
 
 
+.weather-temperature .active{
+  color: #000;
+  cursor: default;
+}
+
+.weather-temperature .active:hover{
+  text-decoration: none;
+}
+
